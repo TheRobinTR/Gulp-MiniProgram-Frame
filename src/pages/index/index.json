@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "The Matrix",
+  "navigationBarTextStyle": "white",
+  "backgroundTextStyle": "dark",
+  "backgroundColor": "#F4F6F6",
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance":800,
+  "usingComponents": {}
+}

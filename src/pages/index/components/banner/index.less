@@ -1,0 +1,48 @@
+.banner {
+  height: 280rpx;
+  overflow: hidden;
+  position: relative;
+  transform:translate3d(0,0,0);
+
+  .banner-swiper {
+    height: 280rpx;
+  }
+
+  .banner-image {
+    height: 280rpx;
+    width: 100%;
+  }
+
+  .banner-bottom {
+    position: absolute;
+    bottom: -1rpx;
+    left: 0;
+    width: 100vw;
+    height: 20rpx;
+    background-image: url("./images/banner-bottom.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+
+  .banner-dots {
+    position: absolute;
+    top: 238rpx;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0;
+
+    .banner-dot {
+      display: inline-block;
+      vertical-align: top;
+      width: 10rpx;
+      height: 10rpx;
+      background: #CCCCCC;
+      border-radius: 50%;
+      margin: 0 6rpx;
+      &.active {
+        background: #D32F2F;
+      }
+    }
+  }
+}

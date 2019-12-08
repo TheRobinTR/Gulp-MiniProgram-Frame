@@ -1,0 +1,15 @@
+node_modules
+npm-debug.log
+dist
+release
+dev.config.json
+online.config.json
+package-lock.json
+
+# Editor directories and files
+.DS_Store
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln

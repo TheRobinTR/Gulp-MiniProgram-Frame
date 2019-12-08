@@ -1,0 +1,23 @@
+<view class="banner">
+    <swiper
+        class="banner-swiper"
+        indicator-dots="{{false}}"
+        indicator-color="#CCCCCC"
+        indicator-active-color="#D32F2F"
+        current="{{currentIndex}}"
+        autoplay="{{canPlay && autoplay}}"
+        interval="{{interval}}"
+        circular="{{true}}"
+        duration="{{duration}}"
+        bindchange="bindChange">
+        <block wx:for="{{items}}" wx:key="url">
+            <swiper-item bindtap="handleItemTap" data-index="{{index}}" data-url="{{item.url}}">
+                <image src="{{item.image}}" class="banner-image"/>
+            </swiper-item>
+        </block>
+    </swiper>
+    <view wx:if="{{items.length > 1}}" class="banner-dots">
+        <view class="banner-dot {{currentIndex === index ? 'active' : ''}}" wx:for="{{items}}" wx:key="url"></view>
+    </view>
+    <view class="banner-bottom"></view>
+</view>

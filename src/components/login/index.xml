@@ -1,0 +1,5 @@
+<view class="login">
+    <button open-type="{{islogin ? '' : 'getUserInfo'}}" class="lofinbtn" bindgetuserinfo="{{islogin ? '' : 'userinfo'}}" bindtap="{{islogin ? 'handle' : ''}}">
+        <slot></slot>
+    </button>
+</view>

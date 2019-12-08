@@ -1,0 +1,10 @@
+<view class="cutdown {{fontColor?'startcolor':''}} " style="color: {{color}}">
+	<text wx:if="{{!lastSprint}}" class="time {{isInterval?'interval':''}}">{{hour}}</text>
+	<text wx:if="{{!lastSprint}}">时</text>
+	<text class="time {{isInterval?'interval':''}}">{{minute}}</text>
+	<text>分</text>
+	<text class="time {{isInterval?'interval':''}}">{{second}}</text>
+	<text wx:if="{{lastSprint||fontColor}}">秒</text>
+	<text wx:if="{{lastSprint}}" class="time {{isInterval?'interval':''}}">{{millisecond}}</text>
+</view>
+

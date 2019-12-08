@@ -1,0 +1,19 @@
+{
+    "pages": [
+        "pages/index/index"
+    ],
+    "window": {
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTitleText": "The Matrix",
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "default"
+    },
+    // 需要跳转的小程序列表
+    "navigateToMiniProgramAppIdList": [],
+    // 插件
+    "plugins": {},
+    // 分包
+    "subPackages": [],
+    // 全局组件
+    "usingComponents": {}
+}
