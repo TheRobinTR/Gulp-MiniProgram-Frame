@@ -1,9 +1,9 @@
 {
-  "navigationBarTitleText": "The Matrix",
-  "navigationBarTextStyle": "white",
-  "backgroundTextStyle": "dark",
+  "navigationBarTitleText": "三观管理器",
+  "navigationBarTextStyle": "black",
+  "backgroundTextStyle": "light",
   "backgroundColor": "#F4F6F6",
   "enablePullDownRefresh": true,
-  "onReachBottomDistance":800,
+  "onReachBottomDistance":400,
   "usingComponents": {}
 }

@@ -7,12 +7,11 @@ export default function tmPage (option) {
     const onHide = option.onHide;
     const onUnload = option.onUnload;
 
-    option.data.isIphoneX = app.systemInfo.isIphoneX;
+    // option.data.isIphoneX = app.systemInfo.isIphoneX;
     option.isFirstvisit = true;
 
     option.onLoad = function (e) {
         onLoad && onLoad.call(this, e);
-        onLoadCb(this, e);
     };
     if (option.onShareAppMessage) {
         const onShareAppMessage = option.onShareAppMessage;
@@ -46,12 +45,6 @@ export default function tmPage (option) {
 
     option.onUnload = function () {
         onUnload && onUnload.call(this);
-        setTimeout(() => {
-            var page = getCurrentPages()[getCurrentPages().length - 1];
-            if (this.__wxExparserNodeId__ === page.__wxExparserNodeId__) {
-                onHideCb(this);
-            }
-        }, 10);
     };
 
 

@@ -1,3 +1,5 @@
-<view class='page'>
-    这里是首页测试
+<view class='page home-page'>
+    <view class="banner">
+        测试页面
+    </view>
 </view>

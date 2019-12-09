@@ -1,6 +1,6 @@
-import wwzPage from '../../basis/wwzPage';
+import tmPage from '../../basis/tmPage';
 const app = getApp();
-wwzPage({
+tmPage({
     data: {
         
     },
@@ -9,7 +9,8 @@ wwzPage({
         
     },
     onLoad: function (e) {
-        console.log(e)
+        console.log(app)
+        console.log(this)
     },
     onReady() {
         
