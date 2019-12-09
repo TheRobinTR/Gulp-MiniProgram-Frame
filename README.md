@@ -7,7 +7,7 @@
 * 实现：
 	+ 检测更新自动打包
 	+ 打包之前先删除一波
-    eslint
+ eslint
 	mock数据支持
 	+ less转为wxss
 	+ xml转为wxml
@@ -19,9 +19,6 @@
 		css
 		js
 		json
-	
-
-npm scripts的语法等相关内容
 
 
 

@@ -16,7 +16,6 @@ wwzPage({
     },
     afterLogin() {
         
-
     },
     
     onShow: function () {
